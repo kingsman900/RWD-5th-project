@@ -1,0 +1,826 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+body{
+    font-family: 'Bitter', serif;
+}
+/* Header part start */
+header{
+    width: 100%;
+    float: left;
+    background: #87509C;
+}
+.header-main{
+    width: 100%;
+    float: left;
+}
+.logo{
+    width: 35%;
+    float: left;
+}
+.logo img{
+    display: block;
+    max-width: 100%;
+    padding: 20px;
+    
+}
+.manu{
+    width: 65%;
+    float: left;
+}
+nev ul{
+    list-style: none;
+}
+nev ul li{
+    display: inline-block;
+    padding: 30px 40px;
+    font-size: 20px;
+}
+nev ul li a{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    width: 100%;
+    float: left;
+        
+}
+.banner-main{
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+    padding: 100px 0px;
+}
+.banner-main h2{
+    padding: 25px 0px;
+}
+.btn{
+    display: block;
+    margin: 0px auto;
+    padding: 12px 13px;
+    border: none;
+    background: #EB7D4B;
+    box-shadow: 0px 3px #C86A40;
+    color: white;
+}
+/* Header part end */
+
+/* Service part start */
+.service{
+    width: 100%;
+    float: left;
+    background: #17C2A4;
+}
+.service-title{
+    width: 100%;
+    float: left;
+}
+.service-title h3{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 25px;
+}
+.service-title span{
+    border-bottom: 2px solid black;
+    width: 80px;
+    display: block;
+    margin: 0px auto;
+}
+.service-title p{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+
+.service-one{
+    width: 23%;
+    float: left;
+    color: white;
+    padding: 5px;
+}
+.service-one img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0px auto;
+}
+.service-one h3{
+    text-align: center;
+    padding: 10px 0px;
+}
+.service-one p{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+
+.service-two{
+    width: 23%;
+    float: left;
+    color: white;
+    padding: 5px;
+}
+.service-two img{
+    width: 130px;
+    height: 150px;
+    display: block;
+    margin: 0px auto;
+}
+.service-two h3{
+    text-align: center;
+    padding: 10px 0px;
+}
+.service-two p{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+
+.service-three{
+    width: 23%;
+    float: left;
+    color: white;
+    padding: 5px;
+}
+.service-three img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0px auto;
+}
+.service-three h3{
+    text-align: center;
+    padding: 10px 0px;
+}
+.service-three p{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+
+.service-four{
+    width: 23%;
+    float: left;
+    color: white;
+    padding: 5px;
+}
+.service-four img{
+    width: 130px;
+    height: 150px;
+    display: block;
+    margin: 0px auto;
+}
+.service-four h3{
+    text-align: center;
+    padding: 10px 0px;
+}
+.service-four p{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+/* Service part end */
+
+
+/* Team information start */
+.team {
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background: #D3D3D3;
+}
+.team-title {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.team-title h2 {
+    color: black;
+    text-align: center;
+    font-size: 23px;
+}
+.team-title span {
+    border-bottom: 1px solid black;
+    display: block;
+    margin: 10px auto;
+    width: 80px;
+}
+.team-title p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.team-one{
+    width: 23%;
+    float: left;
+    text-align: center;
+    margin: 8px 10px;
+}
+.team-one img{
+    margin-bottom: 34px;
+    width: 68%;
+}
+.team-one h3{
+    color: #0a0707;
+    margin: 8px 0px;
+    font-size: 24px;
+}
+.team-one h5{
+    color:red;
+}
+
+.teame-one p{
+    color: snow;
+}
+
+
+.team-two{
+    width: 23%;
+    float: left;
+    text-align: center;
+    margin: 8px 10px;
+}
+.team-two img{
+    margin-bottom: 34px;
+    width: 68%;
+}
+.team-two h3{
+    color: #0a0707;
+    margin: 8px 0px;
+    font-size: 24px;
+}
+.team-two h5{
+    color:red;
+}
+
+.teame-two p{
+    color: snow;
+}
+
+
+.team-three{
+    width: 23%;
+    float: left;
+    text-align: center;
+    margin: 8px 10px;
+}
+.team-three img{
+    margin-bottom: 34px;
+    width: 68%;
+}
+.team-three h3{
+    color: #0a0707;
+    margin: 4px 0px;
+    font-size: 24px;
+}
+.team-three h5{
+    color:red;
+}
+.teame-three p{
+    color: snow;
+}
+
+
+.team-four{
+    width: 23%;
+    float: left;
+    text-align: center;
+    margin: 8px 10px;
+}
+.team-four img{
+    margin-bottom: 34px;
+    width: 68%;
+}
+.team-four h3{
+    color: #0a0707;
+    margin: 8px 0px;
+    font-size: 24px;
+}
+
+
+.team h6{
+    color: blue;
+    padding: 5px 0px;
+    
+}
+.team ul{
+    list-style: none;
+}
+.team ul li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
+.skill{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background:#FFFFFF;
+}
+.skill-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 40px 0px;
+}
+.skill-title h2{
+    color: black;
+    text-align: center;
+    font-size: 23px;
+}
+.skill-title span{
+    border-bottom: 1px solid black;
+    display: block;
+    margin: 10px auto;
+    width: 80px
+}
+.skill-title p{
+    text-align: center;
+    font-size: 18px 0px;
+}
+
+
+.skill-one{
+    width: 23%;
+    float: left;
+    text-align: center;
+    margin: 8px 10px;
+}
+.skill-one img{
+    margin-bottom: 34px;
+    width: 60%;
+}
+.skill-one h4{
+    color: #0a0707;
+    margin: 8px 0px;
+    font-size: 24px;
+}
+
+
+.skill-two{
+    width: 23%;
+    float: left;
+    text-align: center;
+    margin: 8px 10px;
+}
+.skill-two img{
+    margin-bottom: 28px;
+    width: 62%;
+}
+.skill-two h4{
+    color: #0a0707;
+    margin: 8px 0px;
+    font-size: 24px;
+}
+
+
+.skill-three{
+    width: 23%;
+    float: left;
+    text-align: center;
+    margin: 8px 10px;
+}
+.skill-three img{
+    margin-bottom: 28px;
+    width: 62%;
+}
+.skill-three h4{
+    color: #0a0707;
+    margin: 8px 0px;
+    font-size: 24px;
+}
+
+
+.skill-four{
+    width: 23%;
+    float: left;
+    text-align: center;
+    margin: 8px 10px;
+}
+.skill-four img{
+    margin-bottom: 29px;
+    width: 63%;
+}
+.skill-four h4{
+    color: #0a0707;
+    margin: 8px 0px;
+    font-size: 24px;
+}
+
+
+
+.portfolio{
+    width: 100%;
+    float: left;
+    padding:20px 0px;
+    background:#FFDD99;
+}
+.portfolio-title{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 40px 0px;
+
+}
+.portfolio-title h3{
+    color: black;
+    text-align: center;
+    font-size: 23px;
+}
+.portfolio-title span{
+    border-bottom: 1px solid black;
+    display: block;
+    margin: 10px auto;
+    width: 80px
+}
+
+
+.portfolio-title p{
+    text-align: center;
+    font-size: 18px 0px;
+}
+.portfolio ul{
+    list-style: none;
+}
+.portfolio ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+    background: yellow;
+    
+}
+.portfolio ul li a{
+    text-decoration: none;
+    color: white;
+}
+.fast-part{
+    width: 100%;
+    float: left;
+}
+
+.portfolio-one{
+    width: 50%;
+    float: left;
+
+}.portfolio-one img{
+    height: 200px;
+    padding: 0px 118px;
+    margin-top: 30px;
+}
+.portfolio-one h4{
+    margin: 5px 0px;
+    text-align: center;
+    font-size: 15px;
+    padding: 6px 0px;
+}
+.portfolio-two{
+    width: 50%;
+    float: left;
+}
+.portfolio-two img{
+    height: 200px;
+    padding: 0px 118px;
+    margin-top: 30px;
+}
+.portfolio-two h4{
+    margin: 5px 0px;
+    text-align: center;
+    font-size: 15px;
+    padding: 6px 0px;
+}
+.secound-part{
+    width: 100%;
+    float: left;
+}
+
+.portfolio-three{
+    width: 50%;
+    float: left;
+}
+.portfolio-three img{
+    height: 200px;
+    padding: 0px 118px;
+    margin-top: 30px;
+}
+.portfolio-three h4{
+    margin: 5px 0px;
+    text-align: center;
+    font-size: 15px;
+    padding: 6px 0px;  
+}.portfolio-four{
+    width: 50%;
+    float: left;
+}
+.portfolio-four img{
+    height: 200px;
+    padding: 0px 118px;
+    margin-top: 30px;
+}
+
+}
+.portfolio-four h4{
+    margin: 5px 0px;
+    text-align: center;
+    font-size: 15px;
+    padding: 6px 0px; 
+}
+.btn-one{
+    display: block;
+    margin: 0px auto;
+    padding: 10px 20px;
+    border: none;
+    background: aqua;
+    color: white;
+    box-shadow: 0px 3px darkcyan;
+}
+.about{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background: #D74680;
+}
+.about-title {
+    text-align: center;
+    padding: 30px 0px;
+    margin: 0px auto;
+    font-size: 22px;
+    width: 50%;
+}
+.about-title h3 {
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+.about-title span {
+    border-bottom: 3px solid black;
+    display: block;
+    margin: 10px auto;
+    width: 22%;
+}
+.about-title p{
+    text-align: center;
+    color: wheat;
+}
+.about-one {
+    width: 50%;
+    float: left;
+    padding: 40px 0px;
+}
+.about-img{
+    max-width: 100%;
+    padding: 10px 0px;
+    margin: 10px 20px;
+}
+.about-img img{
+    width: 140px;
+    display: block;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+.about-name{
+    width: 300px;
+    float: left;
+}
+.about-name p{
+    color: aliceblue;
+    margin-top: 10px;
+}
+.about-name h4 {
+    color: aliceblue;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.about-name span {
+    color: gold;
+}
+.about-two {
+    width: 50%;
+    float: left;
+    padding: 40px 0px;
+}
+.about-img{
+    max-width: 100%;
+    padding: 10px 0px;
+    margin: 10px 20px;
+}
+.about-img img{
+    width: 140px;
+    display: block;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+.about-name{
+    width: 300px;
+    float: left;
+}
+.about-name p{
+    color: aliceblue;
+    margin-top: 10px;
+}
+.about-name h4 {
+    color: aliceblue;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.about-name span {
+    color: gold;
+}
+.about-three {
+    width: 50%;
+    float: left;
+    padding: 40px 0px;
+}
+}
+.about-img{
+    max-width: 100%;
+    padding: 10px 0px;
+    margin: 10px 20px;
+}
+.about-img img{
+    width: 140px;
+    display: block;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+.about-name{
+    width: 300px;
+    float: left;
+}
+.about-name p{
+    color: aliceblue;
+    margin-top: 10px;
+}
+.about-name h4 {
+    color: aliceblue;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.about-name span {
+    color: gold;
+}
+.about-four {
+    width: 50%;
+    float: left;
+    padding: 40px 0px;
+
+}
+.about-img{
+    max-width: 100%;
+    padding: 10px 0px;
+    margin: 10px 20px;
+}
+.about-img img{
+    width: 140px;
+    display: block;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+.about-name{
+    width: 300px;
+    float: left;
+}
+.about-name p{
+    color: aliceblue;
+    margin-top: 10px;
+}
+.about-name h4 {
+    color: aliceblue;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.about-name span {
+    color: gold;
+}
+.contact {
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background: #3C5499;
+}
+
+.contac-title {
+    width: 50%;
+    display: block;
+    padding: 28px 0px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 18px;
+
+}
+.contac-title h3 {
+    color: aliceblue;
+    font-size: 25px;
+    display: block;
+    margin: 10px 0px;
+    padding: 8px;
+}
+.contac-title span{
+    border-bottom: 3px solid black;
+    display: block;
+    margin: 10px auto;
+    width: 22%;
+}
+.contac-title p{
+    text-align: center;
+    color: wheat;
+
+}
+.contact-form{
+    margin-top: 60px;
+    width: 70%;
+    margin-left: 15%;
+    display: block;
+}
+input[type="text"] {
+    padding: 15px;
+    width: 100%;
+    border-radius: 4px
+    background: black;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="email"] {
+    padding: 15px;
+    width: 100%;
+    border-radius: 4px
+    background: black;
+    border: none;
+    margin-bottom: 10px;
+}
+textarea.area {
+    padding: 30px 15px;
+    width: 100%;
+    border-radius: 4px
+    background: black;
+    border: none;
+}
+input.btan {
+    background: #30bae7;
+    color: #ffffff;
+    display: inline-block;
+    padding: 15px 50px;
+    margin-top: 60px;
+    border-radius: 4px;
+    border: 1px solid #30bae7;
+}
+footer{
+    width: 100%;
+    background: #344b8e;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+    margin: 20px 60px;
+}
+footer ul li a{
+    text-decoration: none;
+    text-transform:capitalize;
+    color:#FFFFFF;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
